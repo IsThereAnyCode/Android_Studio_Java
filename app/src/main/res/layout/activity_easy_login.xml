@@ -21,12 +21,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/register"
+        android:id="@+id/gotoregister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="2dp"
         android:text="계정생성"
+        android:onClick="gotoregister"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
 

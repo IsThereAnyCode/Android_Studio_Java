@@ -12,6 +12,9 @@
         android:theme="@style/Theme.CheckDo"
         tools:targetApi="31">
         <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
             android:name=".EasyLogin"
             android:exported="true">
             <intent-filter>
