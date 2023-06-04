@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "460133151794",
+    "project_id": "checkdo-6756c",
+    "storage_bucket": "checkdo-6756c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460133151794:android:491a2c56e28257c320f82b",
+        "android_client_info": {
+          "package_name": "assignment.checkdo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460133151794-i0efntkjpetbhvh3olnhve2cue14liim.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiXEQ7Nw805iswvy_Kml7Ev93nLSNUdSM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460133151794-i0efntkjpetbhvh3olnhve2cue14liim.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
