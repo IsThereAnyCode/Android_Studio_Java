@@ -45,7 +45,7 @@ class VH extends RecyclerView.ViewHolder {
     public VH(@NonNull View itemView) {
         super(itemView);
 
-        textView = itemView.findViewById(R.id.text);
+        textView = itemView.findViewById(R.id.setDate);
         itemView.findViewById(R.id.checkDo).setOnClickListener(view -> {
             adapter.items.remove(getAdapterPosition());
             adapter.notifyItemRemoved(getAdapterPosition());
