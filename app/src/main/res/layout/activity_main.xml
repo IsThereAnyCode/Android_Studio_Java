@@ -18,9 +18,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <Space
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
     </FrameLayout>
 
     <LinearLayout
@@ -38,30 +35,22 @@
 
         <Button
             android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="175dp"
+            android:layout_height="50dp"
             android:layout_margin="16dp"
-            android:onClick="setCheckDo"
-            android:text="CheckDo"
+            android:onClick="onClick"
+            android:text="Do Swipe"
+            android:drawableLeft="@drawable/baseline_swipe_right_6"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="667dp" />
 
         <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="setCalendar"
-            android:text="Calendar"
-            android:layout_margin="16dp"
-            tools:layout_editor_absoluteX="148dp"
-            tools:layout_editor_absoluteY="667dp" />
-
-        <Button
             android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="setSettings"
+            android:layout_width="175dp"
+            android:layout_height="50dp"
+            android:onClick="onClick"
             android:text="Setting"
+            android:drawableLeft="@drawable/baseline_settings_24"
             android:layout_margin="16dp"
             tools:layout_editor_absoluteX="297dp"
             tools:layout_editor_absoluteY="667dp" />
